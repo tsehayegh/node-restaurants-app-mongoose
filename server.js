@@ -141,7 +141,6 @@ function runServer(databaseUrl, port = PORT) {
     });
   });
 }
-
 // this function closes the server, and returns a promise. we'll
 // use it in our integration tests later.
 function closeServer() {
